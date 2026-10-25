@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+credentials.json
+service-account*.json
+
+# Editor
+.vscode/
+
+# Logs and temporary files
+*.log
+
+# Large datasets and point clouds
+*.parquet
+*.tfrecord
+*.tfrecords
+*.pcd
+*.bin
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+
+# Generated outputs
+runs/
+outputs/
+results/
+wandb/
